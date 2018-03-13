@@ -1,0 +1,1 @@
+{"virtualbox":{"/src/app":{"create":true,"guestpath":"/src/app","hostpath":"C:/Users/Connor/Desktop/Twitter_Proj/src","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Connor/Desktop/Twitter_Proj","disabled":false,"__vagrantfile":true}}}
