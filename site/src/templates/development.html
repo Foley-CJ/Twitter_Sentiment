@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "banner.html" %}
+
+
+
+<head>
+
+
+</head>
+<body>
+<div class="inner">
+    <h4 style="text-align:center;"> Data Collection</h4>
+    <ul>
+        <li>Data was sourced from companies user_timeline on twitter using python's tweepy package</li>
+        <li>Data processing was completed in batches to appease twitter api restrictions</li>
+        <li>ETL pattern was designed around functional programing to allow rapid expansion of process to other twitter feeds</li>
+        <a href="https://google.com">Data Collection Script</a>
+    </ul>
+    <h4 style="text-align:center;"> Data Visualization</h4>
+    <ul>
+        <li>A custom  graph builder was developed by leveraging python's plotly package</li>
+        <li>Ondemand chart filtering was incorporated to allow rapid analysis of new feeds</li>
+        <li>Visualization was precomputed offline to ensure quality and speed</li>
+        <a href="https://google.com">Data Visualization Script</a>
+    </ul>
+    <h4 style="text-align:center;"> Site Creation</h4>
+    <ul>
+        <li>Web application is running off of flask and jinja2 templating</li>
+        <li>Web service is hosted by Heroku</li>
+        <a href="https://google.com">Site Application</a>
+    </ul>
+</body>
+
+</div>
+
+
+{% include "footer.html" %}
+{% endblock %}

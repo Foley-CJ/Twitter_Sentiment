@@ -1,0 +1,72 @@
+
+
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
+	font-size:30px;
+	color:black;
+	border-radius: 0 !important;
+
+}
+
+.navigator {
+    background-color: #4caf50;
+    box-shadow: 0px 2px rgb(230,230,230);
+}
+.btnCustom{
+    background-color: #4caf50;
+    color: white;
+    border: 0px;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
+    color: black;
+    background-color: white;
+    border-color: #285e8e; /*set the color you want here*/
+}
+
+.pull-right {
+    float: right !important; // Use of important emulates bootstrap
+}
+
+
+
+html,body{
+    height: 100%
+}
+
+
+
+.footer p {
+    left: 0;
+    bottom: 0;
+    font-weight: 300;
+    font-size:20px; !important;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.contact p{
+    margin: 0px;
+    text-align:center;
+
+}
+
+.contact span{
+    margin: 0px;
+    text-align:center;
+
+}
+
+
+.inner {
+  width: 50%;
+  margin: 0 auto;
+  padding: 50px;
+ }
+
+.inner li {
+  font-size: 20px;
+ }
